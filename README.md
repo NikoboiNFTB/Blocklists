@@ -4,22 +4,42 @@ Collection of all my uBlock Origin blocklists.
 
 ## Lists
 
-### BBC iPlayer
+### [BBC iPlayer](/list/www.bbc.co.uk)
 
-### GitHub
+Removes all the trash from the iPlayer home page, leaving only "Continue watching..."
 
-### Google
+### [GitHub](/list/github.com)
 
-### GTAWeb.eu
+Removes user profile pictures.
 
-### IMDb
+### [Google](/list/google.com)
 
-### Lyrics Translate
+Removes various Google annoyances.
 
-### Snapchat
+### [GTAWeb.eu](/list/gtaweb.eu)
 
-### Songsterr
+Blocks ads and UI annoyances on GTAWeb.eu
 
-### TikTok
+### [IMDb](/list/www.imdb.com)
 
-### YouTube
+Removes native third party streaming options.
+
+### [Lyrics Translate](/list/lyricstranslate.com)
+
+Removes copy protection.
+
+### [Snapchat](/list/www.snapchat.com)
+
+Removes various annoyances.
+
+### [Songsterr](/list/www.songsterr.com)
+
+Removes premium ads.
+
+### [TikTok](/list/www.tiktok.com)
+
+Helper for [`auto-scroller.user.js`](https://github.com/NikoboiNFTB/TikTok-Tools/blob/main/auto-scroller/auto-scoller.user.js).
+
+### [YouTube](/list/www.youtube.com)
+
+Removes various annoyances.

@@ -1,12 +1,12 @@
 ! Title: TikTok Filters by Nikoboi
 ! Description: Helper for `auto-scroller.user.js`.
-! Homepage: https://nikoboi.dev/
+! Homepage: https://block.nikoboi.dev/
 ! Author: Nikoboi
-! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/TikTok-Tools/blob/main/LICENSE
-! Source: https://tiktok.nikoboi.dev/auto-scroller/blocklist.txt
-! Issues: https://github.com/NikoboiNFTB/TikTok-Tools/issues
-! Pull Requests: https://github.com/NikoboiNFTB/TikTok-Tools/pulls
-! Last updated: 2026-02-24 21:22 UTC+02:00
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
+! Source: https://block.nikoboi.dev/list/www.tiktok.com
+! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
+! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
+! Last updated: 2026-08-20 23:58 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================

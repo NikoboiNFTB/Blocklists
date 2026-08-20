@@ -1,12 +1,12 @@
 ! Title: BBC iPlayer Filters by Nikoboi
-! Description: Currently just filters to remove all the trash from the iPlayer home page, leaving only "Continue watching..."
-! Homepage: https://nikoboi.dev/
+! Description: Removes all the trash from the iPlayer home page, leaving only "Continue watching..."
+! Homepage: https://block.nikoboi.dev/
 ! Author: Nikoboi
-! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/BBC-iPlayer/blob/main/LICENSE
-! Source: https://bbc.nikoboi.dev/blocklist.txt
-! Issues: https://github.com/NikoboiNFTB/BBC-iPlayer/issues
-! Pull Requests: https://github.com/NikoboiNFTB/BBC-iPlayer/pulls
-! Last updated: 2026-08-19 18:41 UTC+02:00
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
+! Source: https://block.nikoboi.dev/list/www.bbc.co.uk
+! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
+! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
+! Last updated: 2026-08-21 00:06 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
