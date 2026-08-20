@@ -1,0 +1,30 @@
+! Title: GTAWeb.eu Filters by Nikoboi
+! Description: Blocks ads and UI annoyances on GTAWeb.eu
+! Homepage: https://nikoboi.dev/
+! Author: Nikoboi
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/GTAWeb.eu-Tweaks/blob/main/LICENSE
+! Source: https://gtaweb.nikoboi.dev/blocklist.txt
+! Issues: https://github.com/NikoboiNFTB/GTAWeb.eu-Tweaks/issues
+! Pull Requests: https://github.com/NikoboiNFTB/GTAWeb.eu-Tweaks/pulls
+! Last updated: 2026-02-24 21:20 UTC+02:00
+! Expires: 7 days
+
+! ========================================
+! Start of Filters
+! ========================================
+
+! Banner ads
+gtaweb.eu###banners-area
+
+! Misleading "More..." button (opens external website)
+gtaweb.eu##[title="More..."]
+
+! Celebration overlays
+gtaweb.eu###snowflakes
+
+! Celebration toggle
+gtaweb.eu###snowflakes_on_off_container
+
+! ========================================
+! End of Filters
+! ========================================
