@@ -6,15 +6,15 @@
 ! Source: https://block.nikoboi.dev/list/www.bbc.co.uk
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-30 10:39 UTC+03:00
+! Last updated: 2026-08-30 10:53 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
 ! Start of Filters
 ! ========================================
 
-! Everything except "Continue watching..." in the main feed.
-www.bbc.co.uk##.gel-wrap > section:not([data-section-type="watching"])
+! Only show "Continue watching..." in the main feed.
+www.bbc.co.uk##.gel-wrap > :not([aria-label="Continue watching..."]):not(:has(section[aria-label="Continue watching..."]))
 
 ! Footer.
 www.bbc.co.uk###orb-footer

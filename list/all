@@ -6,7 +6,7 @@
 ! Source: https://block.nikoboi.dev/list/all
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-30 10:39 UTC+03:00
+! Last updated: 2026-08-30 10:54 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -47,8 +47,8 @@ lyricstranslate.com##div.song-list.search-res__block.block-search-res._artist
 ! "Please rate this score" popup. I HAVEN'T SEEN THE SCORE YET bro.
 musescore.com##article[role="dialog"]:has-text(Please rate this score)
 
-! Everything except "Continue watching..." in the main feed.
-www.bbc.co.uk##.gel-wrap > section:not([data-section-type="watching"])
+! Only show "Continue watching..." in the main feed.
+www.bbc.co.uk##.gel-wrap > :not([aria-label="Continue watching..."]):not(:has(section[aria-label="Continue watching..."]))
 
 ! Footer.
 www.bbc.co.uk###orb-footer
