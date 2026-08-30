@@ -6,7 +6,7 @@
 ! Source: https://block.nikoboi.dev/list/www.bbc.co.uk
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-21 00:06 UTC+03:00
+! Last updated: 2026-08-30 10:39 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -15,9 +15,6 @@
 
 ! Everything except "Continue watching..." in the main feed.
 www.bbc.co.uk##.gel-wrap > section:not([data-section-type="watching"])
-
-! A straggling "If you liked..." section
-www.bbc.co.uk##.section__wrapper
 
 ! Footer.
 www.bbc.co.uk###orb-footer
