@@ -4,6 +4,10 @@ Collection of all my uBlock Origin blocklists.
 
 ## Lists
 
+### [All](/list/all)
+
+All my daily drive lists combined into one.
+
 ### [BBC iPlayer](/list/www.bbc.co.uk)
 
 Removes all the trash from the iPlayer home page, leaving only "Continue watching..."
@@ -14,7 +18,7 @@ Removes user profile pictures.
 
 ### [Google](/list/google.com)
 
-Removes various Google annoyances.
+Removes login with Google prompts on all websites.
 
 ### [GTAWeb.eu](/list/gtaweb.eu)
 
@@ -35,10 +39,6 @@ Removes various annoyances.
 ### [Songsterr](/list/www.songsterr.com)
 
 Removes premium ads.
-
-### [TikTok](/list/www.tiktok.com)
-
-Helper for [`auto-scroller.user.js`](https://github.com/NikoboiNFTB/TikTok-Tools/blob/main/auto-scroller/auto-scoller.user.js).
 
 ### [YouTube](/list/www.youtube.com)
 
