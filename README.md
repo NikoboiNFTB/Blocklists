@@ -32,6 +32,10 @@ Removes native third party streaming options.
 
 Removes copy protection.
 
+### [Nexus Mods](/list/www.nexusmods.com)
+
+Removes premium ads.
+
 ### [Snapchat](/list/www.snapchat.com)
 
 Removes various annoyances.
