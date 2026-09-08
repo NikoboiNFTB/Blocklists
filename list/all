@@ -6,7 +6,7 @@
 ! Source: https://block.nikoboi.dev/list/all
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-31 09:59 UTC+03:00
+! Last updated: 2026-09-08 19:35 UTC+03:00
 ! Expires: 7 days
 
 ! ========================================
@@ -43,6 +43,9 @@ lyricstranslate.com##+js(aeld, beforecopy)
 
 ! Artists in search, because you usually would search for a song.
 lyricstranslate.com##div.song-list.search-res__block.block-search-res._artist
+
+! Premium banner
+www.nexusmods.com##free-trial-banner
 
 ! "Please rate this score" popup. I HAVEN'T SEEN THE SCORE YET bro.
 musescore.com##article[role="dialog"]:has-text(Please rate this score)
