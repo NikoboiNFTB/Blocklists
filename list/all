@@ -6,18 +6,12 @@
 ! Repository: https://github.com/NikoboiNFTB/Blocklists
 ! Source: https://block.nikoboi.dev/list/all
 !
-! Last updated: 2026-09-18 18:33 UTC+03:00
+! Last updated: 2026-09-18 18:56:11 UTC+03:00
 ! Expires: 1 day
 !
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-
-
-! ================================ !
-! Start of Filters                 !
-! ================================ !
-
 
 ! ================ !
 ! Google           !
@@ -30,7 +24,6 @@
 
 ! Prevent Google Identity Services One Tap from loading
 ||accounts.google.com/gsi/*
-
 
 ! ================ !
 ! GTAWeb.eu        !
@@ -48,7 +41,6 @@ gtaweb.eu###snowflakes
 ! Celebration toggle
 gtaweb.eu###snowflakes_on_off_container
 
-
 ! ================ !
 ! LyricsTranslate  !
 ! ================ !
@@ -60,7 +52,6 @@ lyricstranslate.com##+js(aeld, beforecopy)
 ! Artists in search, because you usually would search for a song.
 lyricstranslate.com##div.song-list.search-res__block.block-search-res._artist
 
-
 ! ================ !
 ! Nexus Mods       !
 ! ================ !
@@ -68,14 +59,12 @@ lyricstranslate.com##div.song-list.search-res__block.block-search-res._artist
 ! Premium banner
 www.nexusmods.com##free-trial-banner
 
-
 ! ================ !
 ! MuseScore        !
 ! ================ !
 
 ! "Please rate this score" popup. I HAVEN'T SEEN THE SCORE YET bro.
 musescore.com##article[role="dialog"]:has-text(Please rate this score)
-
 
 ! ================ !
 ! BBC iPlayer      !
@@ -87,7 +76,6 @@ www.bbc.co.uk##:matches-path(/^\/iplayer\/?$/) .gel-wrap > :not([aria-label="Con
 ! Footer.
 www.bbc.co.uk###orb-footer
 
-
 ! ================ !
 ! Snapchat         !
 ! ================ !
@@ -97,7 +85,6 @@ www.snapchat.com##.wHvEy
 
 ! Obnoxious background
 www.snapchat.com##._HpJ5
-
 
 ! ================ !
 ! Songsterr        !
@@ -113,7 +100,6 @@ www.songsterr.com###song-list-header
 
 ! Banner ad
 www.songsterr.com###showroom
-
 
 ! ================ !
 ! YouTube          !
@@ -210,8 +196,3 @@ www.youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@cal
 
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
-
-
-! ================================ !
-! End of Filters                   !
-! ================================ !

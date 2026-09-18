@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+git status --short |
+	while IFS= read -r line; do
+		[[ "${line:0:2}" == " M" ]] || continue
+
+		file="${line:3}"
+
+		[[ -f "$file" ]] || continue
+		grep -q '^! Last updated:' "$file" || continue
+
+		timestamp=$(
+			date -d "@$(stat -c '%Y' "$file")" \
+				'+%Y-%m-%d %H:%M:%S UTC%:z'
+		)
+
+		sed -i \
+			-E "s/^! Last updated:.*/! Last updated: ${timestamp}/" \
+			"$file"
+
+		printf 'Updated: %s -> %s\n' "$file" "$timestamp"
+	done

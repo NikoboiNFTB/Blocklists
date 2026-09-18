@@ -6,18 +6,12 @@
 ! Repository: https://github.com/NikoboiNFTB/Blocklists
 ! Source: https://block.nikoboi.dev/list/gtaweb.eu
 !
-! Last updated: 2026-09-18 18:23 UTC+03:00
+! Last updated: 2026-09-18 18:56:06 UTC+03:00
 ! Expires: 1 day
 !
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-
-
-! ================================ !
-! Start of Filters                 !
-! ================================ !
-
 
 ! Banner ads
 gtaweb.eu###banners-area
@@ -30,8 +24,3 @@ gtaweb.eu###snowflakes
 
 ! Celebration toggle
 gtaweb.eu###snowflakes_on_off_container
-
-
-! ================================ !
-! End of Filters                   !
-! ================================ !
