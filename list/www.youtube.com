@@ -1,17 +1,23 @@
 ! Title: YouTube Filters by Nikoboi
 ! Description: Removes various annoyances.
-! Homepage: https://block.nikoboi.dev/
 ! Author: Nikoboi
-! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
+!
+! Homepage: https://block.nikoboi.dev/
+! Repository: https://github.com/NikoboiNFTB/Blocklists
 ! Source: https://block.nikoboi.dev/list/www.youtube.com
+!
+! Last updated: 2026-09-18 18:30 UTC+03:00
+! Expires: 1 day
+!
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-20 23:58 UTC+03:00
-! Expires: 7 days
 
-! ========================================
-! Start of Filters
-! ========================================
+
+! ================================ !
+! Start of Filters                 !
+! ================================ !
+
 
 ! Add to queue, Download, Share and Hide in three dot menu.
 www.youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
@@ -105,6 +111,7 @@ www.youtube.com##ytd-rich-item-renderer:has(a[href*="/@qnaline"], a[href*="/@cal
 ! Bloatware service worker
 ||www.youtube.com/s/player/*/worker/echo-worker.js$script,domain=www.youtube.com
 
-! ========================================
-! End of Filters
-! ========================================
+
+! ================================ !
+! End of Filters                   !
+! ================================ !

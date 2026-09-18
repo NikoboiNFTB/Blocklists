@@ -1,17 +1,23 @@
 ! Title: BBC iPlayer Filters by Nikoboi
 ! Description: Removes all the trash from the iPlayer home page, leaving only "Continue watching..."
-! Homepage: https://block.nikoboi.dev/
 ! Author: Nikoboi
-! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
+!
+! Homepage: https://block.nikoboi.dev/
+! Repository: https://github.com/NikoboiNFTB/Blocklists
 ! Source: https://block.nikoboi.dev/list/www.bbc.co.uk
+!
+! Last updated: 2026-09-18 18:27 UTC+03:00
+! Expires: 1 day
+!
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-08-31 09:59 UTC+03:00
-! Expires: 7 days
 
-! ========================================
-! Start of Filters
-! ========================================
+
+! ================================ !
+! Start of Filters                 !
+! ================================ !
+
 
 ! Only show "Continue watching..." in the main feed.
 www.bbc.co.uk##:matches-path(/^\/iplayer\/?$/) .gel-wrap > :not([aria-label="Continue watching..."]):not(:has(section[aria-label="Continue watching..."]))
@@ -19,6 +25,7 @@ www.bbc.co.uk##:matches-path(/^\/iplayer\/?$/) .gel-wrap > :not([aria-label="Con
 ! Footer.
 www.bbc.co.uk###orb-footer
 
-! ========================================
-! End of Filters
-! ========================================
+
+! ================================ !
+! End of Filters                   !
+! ================================ !
