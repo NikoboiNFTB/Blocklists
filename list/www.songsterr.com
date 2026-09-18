@@ -6,7 +6,7 @@
 ! Source: https://block.nikoboi.dev/list/www.songsterr.com
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-09-18 17:57 UTC+03:00
+! Last updated: 2026-09-18 18:04 UTC+03:00
 ! Expires: 7 day
 
 ! ========================================
@@ -17,7 +17,9 @@
 www.songsterr.com###showroom_header_desktop
 
 ! "...to Loop and Slow down with just one click" ad in search
-www.songsterr.com###showroom_panel_text
+www.songsterr.com###showroom_panel
+www.songsterr.com###song-list-header
+! This is the relatively useless tab filters, hopefully it's a permanent fix for the tab-hidden-behind-filters problem.
 
 ! Banner ad
 www.songsterr.com###showroom
