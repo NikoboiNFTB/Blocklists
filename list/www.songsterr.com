@@ -6,8 +6,8 @@
 ! Source: https://block.nikoboi.dev/list/www.songsterr.com
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
-! Last updated: 2026-09-15 13:57 UTC+03:00
-! Expires: 7 days
+! Last updated: 2026-09-18 17:57 UTC+03:00
+! Expires: 7 day
 
 ! ========================================
 ! Start of Filters
@@ -17,8 +17,7 @@
 www.songsterr.com###showroom_header_desktop
 
 ! "...to Loop and Slow down with just one click" ad in search
-! www.songsterr.com###showroom_panel
-! Temporarily disabled because it will cause the top song to go under the filters thing on some pages.
+www.songsterr.com###showroom_panel_text
 
 ! Banner ad
 www.songsterr.com###showroom
