@@ -6,12 +6,16 @@
 ! Repository: https://github.com/NikoboiNFTB/Blocklists
 ! Source: https://block.nikoboi.dev/list/www.youtube.com
 !
-! Last updated: 2026-09-18 18:55:51 UTC+03:00
+! Last updated: 2026-10-08 23:46:58 UTC+03:00
 ! Expires: 1 day
 !
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/Blocklists/blob/main/LICENSE
 ! Issues: https://github.com/NikoboiNFTB/Blocklists/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Blocklists/pulls
+
+! Share Button and Repeat Button in Chapters in Fullscreen.
+youtube.com###share-button
+youtube.com###repeat-button
 
 ! Add to queue, Download, Share and Hide in three dot menu.
 www.youtube.com##yt-list-item-view-model:has(span:has-text("Add to queue"))
